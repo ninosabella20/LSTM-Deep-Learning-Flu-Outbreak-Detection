@@ -10,7 +10,7 @@ This project focuses on generating and utilizing a time series dataset with the 
 - **Month**: The month of the year, capturing seasonal variations.
 - **Past Flu Occurrences**: The number of flu cases reported in the previous days.
 
-These features will be used to predict the target variable: whether a patient has the flu or not. The LSTM network will learn patterns and relationships within the sequential data to make accurate predictions, achieving a model accuracy generally above **85%**.
+These features will be used to predict the target variable: whether a patient has the flu or not. The LSTM network will learn patterns and relationships within the sequential data to make accurate predictions, achieving a model accuracy generally above **87%**.
 
 ## Tools and Techniques
 
@@ -38,5 +38,5 @@ These features will be used to predict the target variable: whether a patient ha
 - **Importance**: Historical flu data provides context for current flu risks. If there have been several recent cases of the flu, the likelihood of new cases may increase. This feature helps the model detect patterns based on past occurrences, boosting predictive accuracy.
 
 ## Synopsis
-By combining these features with **LSTM networks**, this project aims to develop a robust predictive model that can effectively forecast flu occurrences. Achieving a model accuracy of **85% or higher**, this model offers valuable insights into flu transmission patterns, which could be instrumental in improving public health responses and managing flu outbreaks.
+By combining these features with **LSTM networks**, this project aims to develop a robust predictive model that can effectively forecast flu occurrences. Achieving a model accuracy of **87% or higher**, this model offers valuable insights into flu transmission patterns, which could be instrumental in improving public health responses and managing flu outbreaks.
 
